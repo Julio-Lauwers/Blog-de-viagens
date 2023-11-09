@@ -1,0 +1,226 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-title h1 {
+    background-color: #362FD9;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 80px;
+}
+
+.menu-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 40px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: border-bottom 0s;
+}
+
+.menu a:hover {
+    color: #362FD9;
+    border-bottom: 2px solid #362FD9;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu li:hover .dropdown-menu {
+    display: block;
+}
+
+.body {
+    max-width: 1400px;
+}
+
+h2 {
+    margin-top: 100px;
+    color: #362FD9;
+    max-width: 1200px;
+    margin-bottom: 30px;
+    font-size: 50px;
+
+}
+
+/* CARROSSEL*/
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper {
+    overflow-x: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 50px;
+    line-height: 250px;
+    width: 50px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, #362FD9 300%);
+    opacity: 0.5;
+    transition: all 600ms ease-in-out;
+
+}
+
+.arrow-right {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, #362FD9 300%)
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+}
+
+.item {
+
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+/* VIAGENS MAIS ACESSADAS */
+#bloco1 {
+    background-color: #362FD9;
+    max-width: 600px;
+    max-height: 400px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    
+}
+
+#bloco1 h3 {
+    background-color: #362FD9;
+    padding: 10px;
+    color: #ffffff;
+    height: 30px;
+    
+}
+
+
+/* SECTION 2 NOVIDADES */
+
+
+
+.linha {
+    border-top: 1px solid #362FD9; /* Define a espessura, estilo e cor da linha */
+    margin-top: 30px; /* Espaço acima da linha */
+}
+
+.section2{
+    margin-top: 60px;
+    display: flex;
+}
+
+.novidades{
+    max-width: 800px;
+    margin-left: 0;
+}
+
+.novidades h1{
+    color: #333;
+    background-color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30PX;
+}
+
+#card1 {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 10px;
+    align-items: center;   
+
+}
+
+.p1{
+    color: #252525;
+    padding: 10px;
+    font-size: 22px;
+    align-items: center;    
+}
+
+.p2{
+    color: #1f1f1f;
+    padding: 10px;
+    font-size: 27px;
+    align-items: center;    
+    margin-top: 20px;
+}
+
+.p2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bi{
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+
+
+#card1 img{
+    margin-left: 0;
+}
+

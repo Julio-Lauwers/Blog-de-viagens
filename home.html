@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/style.css">
+  <title>Blog de vigens</title>
+</head>
+
+<body>
+  <div class="top-title">
+    <h1>
+      blog de viagens
+    </h1>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu-container">
+    <ul class="menu">
+      <li><a href="/home.html">INICIO</a></li>
+      <li><a href="/sobre.html">SOBRE</a></li>
+      <li><a href="/gastronomia.html">GASTRONOMIA</a></li>
+      <li><a href="/aventura.html">AVENTURA</a></li>
+      <li><a href="/romantica">VIAGEM ROMÂNTICA</a></li>
+      <li><a href="/com-familia">VIAGEM COM A FAMILIA</a></li>
+      <li><a href="/litoral">LITORAL</a></li>
+      <li class="dropdown">
+        <a>CLIMA &#9662;</a>
+        <ul class="dropdown-menu">
+          <li><a href="/quente">QUENTE</a></li>
+          <li><a href="/frio">FRIO</a></li>
+        </ul>
+      </li>
+      <li><a href="/contato">CONTATO</a></li>
+    </ul>
+  </div>
+
+  <div class="body">
+
+    <!-- carrossel com as viagens mais produradas -->
+    <h2>Viagens mais procuradas</h2>
+    <div class="container">
+
+      <button class="arrow-left control" aria-label="Previous image">◀</button>
+      <button class="arrow-right control" aria-label="Next image">▶</button>
+      <div class="gallery-wrapper">
+        <div class="gallery">
+
+          <div id="bloco1" class="item current-item">
+            <a href="gastronomia.html">
+              <img src="/public/img/fernando-de-noronha.png">
+              <h3>Rio de Janeiro: Fernando de Noronha</h3>
+            </a>
+          </div>
+
+          <div id="bloco1" class="item current-item">
+            <img src="/public/img/gramado.png">
+            <h3>Rio Grande do Sul: Gramado</h3>
+          </div>
+
+          <div id="bloco1" class="item current-item">
+            <img src="/public/img/sp.png">
+            <h3>São Paulo: Campos do Jordão</h3>
+          </div>
+
+          <div id="bloco1" class="item current-item">
+            <img src="/public/img/al.png">
+            <h3>Alagoas: Maceió</h3>
+          </div>
+
+          <div id="bloco1" class="item current-item">
+            <img src="/public/img/jalapao.png">
+            <h3>Tocantins: Jalapão</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- segunda section -->
+
+
+    <div class="linha"></div>
+    <section class="section2">
+      <div class="novidades">
+        <h1>Novidades</h1>
+
+        <div id="card1">
+          <img src="public/img/balao.png">
+          <div class="conteudo-card">
+            <p class="p1">Aventura</p>
+            <p class="p2">Uber Balão: app abre reservas para passeio pelos céus da Capadócia </p>
+          </div>
+          <div class="share">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-share"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+            </svg>
+          </div>
+        </div>
+
+        <div id="card1">
+          <img src="public/img/resorte-bahia.png">
+          <div class="conteudo-card">
+            <p class="p1">Casual</p>
+            <p class="p2">Conheça o resort na Bahia considerado o melhor da América do Sul</p>
+          </div>
+          <div class="share">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-share"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+            </svg>
+          </div>
+        </div>
+
+        <div id="card1">
+          <img src="public/img/ney.png">
+          <div class="conteudo-card">
+            <p class="p1">Esporte</p>
+            <p class="p2">"Ney em alto-mar": veja quanto custa as cabines no cruzeiro de Neymar</p>
+          </div>
+          <div class="share">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-share"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+            </svg>
+          </div>
+        </div>
+
+        <div id="card1">
+          <img src="public/img/aviao.png">
+          <div class="conteudo-card">
+            <p class="p1">Finanças</p>
+            <p class="p2">"Qual o momento ideal para comprar passagem para o Natal? Google Flights responde</p>
+          </div>
+          <div class="share">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-share"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+            </svg>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="trips">
+      <p>Teste</p>
+      </div>
+  </div>
+  </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>
